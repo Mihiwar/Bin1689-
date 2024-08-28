@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poultry Farm</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Poultry Farm</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <section id="home" class="hero">
+            <div class="hero-text">
+                <h1>Welcome to Our Poultry Farm</h1>
+                <p>Providing the best care for your poultry</p>
+                <a href="#services" class="cta-button">Learn More</a>
+            </div>
+        </section>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>We are dedicated to offering top-notch poultry care and services.</p>
+            <div class="gallery">
+                <img src="poultry1.jpg" alt="Poultry Image 1">
+                <img src="poultry2.jpg" alt="Poultry Image 2">
+                <img src="poultry3.jpg" alt="Poultry Image 3">
+            </div>
+        </section>
+
+        <section id="services">
+            <h2>Our Services</h2>
+            <div class="service-item">
+                <h3>Egg Production</h3>
+                <p>High-quality eggs from well-cared-for chickens.</p>
+            </div>
+            <div class="service-item">
+                <h3>Meat Production</h3>
+                <p>Premium poultry meat with the best taste and quality.</p>
+            </div>
+            <div class="service-item">
+                <h3>Consultation</h3>
+                <p>Expert advice on poultry farm management.</p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Poultry Farm. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
